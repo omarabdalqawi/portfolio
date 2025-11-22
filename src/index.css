@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+nav {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 @keyframes gradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
