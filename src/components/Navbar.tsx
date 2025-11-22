@@ -278,18 +278,16 @@ const Navbar: React.FC<NavbarProps> = ({
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    // تأكد من ظهور Navbar فوراً
     setIsLoaded(true);
 
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
 
-    // حماية Navbar من الاختفاء
     const nav = document.querySelector('nav');
     if (nav) {
       nav.style.opacity = '1';
       nav.style.visibility = 'visible';
-      nav.style.transition = 'none'; // تجاهل أي animation مؤقت
+      nav.style.transition = 'none';
       setTimeout(() => { if(nav) nav.style.transition = ''; }, 300);
     }
 
