@@ -65,7 +65,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({
   `}
       >
         <ChevronLeft size={20} className="mr-2" />
-        {isArabic ? "العودة إلى المشاريع" : "Back to Projects"}
+        {isArabic ? "العودة" : "Back to Projects"}
       </button>
 
       <div className="max-w-6xl mx-auto">
