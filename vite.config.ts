@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build',  // تغيير مجلد الإخراج إلى build
+    outDir: 'build',  
   },
-    base: '/portfolio/',  // مسار المستودع في GitHub
+    base: '/portfolio/',  
   optimizeDeps: {
     exclude: ['lucide-react'],
     
