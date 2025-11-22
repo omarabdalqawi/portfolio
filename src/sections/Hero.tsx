@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ isDark, isArabic }) => {
       <div className="text-center space-y-6 animate-fadeIn">
         <div className="relative w-48 h-48 mx-auto mb-8" data-aos="zoom-in" data-aos-delay="200">
          <img
-            src="./profile.jpg"
+            src="./Omar.jpeg"
             alt="Omar Murrah"
             className="rounded-full object-cover w-full h-full border-4 border-blue-500 shadow-xl"
           />
